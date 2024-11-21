@@ -89,6 +89,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 72.39) (xy 170.18 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "231d575c-7a74-4f9f-8242-c9e7d338f5c8")
+	)
+	(wire
+		(pts
 			(xy 106.68 49.53) (xy 170.18 49.53)
 		)
 		(stroke
@@ -96,16 +106,6 @@
 			(type default)
 		)
 		(uuid "2f57b927-7beb-4bbb-94b7-a7838665ca3d")
-	)
-	(wire
-		(pts
-			(xy 106.68 74.93) (xy 170.18 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34972df3-724b-4ece-9584-9bac462da1d5")
 	)
 	(wire
 		(pts
@@ -279,16 +279,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 72.39) (xy 170.18 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1acb06b-c154-439a-bb28-6214bea47a0f")
-	)
-	(wire
-		(pts
 			(xy 106.68 81.28) (xy 170.18 81.28)
 		)
 		(stroke
@@ -439,6 +429,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 74.93) (xy 170.18 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e235ee01-b516-43aa-bfd0-cdabeaef8941")
+	)
+	(wire
+		(pts
 			(xy 106.68 31.75) (xy 170.18 31.75)
 		)
 		(stroke
@@ -476,6 +476,16 @@
 			(type default)
 		)
 		(uuid "ff9782a9-6a0d-4f2d-9795-364d40f02793")
+	)
+	(text "Pins 102 and 101 are labeled with the PDID and PDIC nets on 308T schematic\nbut in the gerbers there is no connections made - revise later\n"
+		(exclude_from_sim no)
+		(at 67.31 107.188 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "41533bf0-d9af-4fba-8a1f-37da74dd2d87")
 	)
 	(sheet
 		(at 170.18 25.4)
@@ -617,16 +627,6 @@
 			)
 			(uuid "d4cc0ec6-6e29-4086-8d7d-23742ab78733")
 		)
-		(pin "CLKOUT" input
-			(at 170.18 74.93 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "7a66bc02-a8ea-43ea-8171-ac97d2269469")
-		)
 		(pin "TCK" input
 			(at 170.18 115.57 180)
 			(effects
@@ -757,16 +757,6 @@
 			)
 			(uuid "f1018f16-17db-47a2-ab4d-c5722043ddc8")
 		)
-		(pin "CLKIN" input
-			(at 170.18 72.39 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "6801adfa-673f-416c-8f69-47b770b6b0af")
-		)
 		(pin "HDR10" input
 			(at 170.18 29.21 180)
 			(effects
@@ -807,6 +797,26 @@
 			)
 			(uuid "704f1011-6988-46e7-96e6-689f93476603")
 		)
+		(pin "CLKI_TO_FPGA" input
+			(at 170.18 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f1cdbb53-94d3-415f-90fc-ce75084f74ac")
+		)
+		(pin "CLKO_FROM_FPGA" input
+			(at 170.18 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "049d12ee-a74a-4d71-81a1-a8407c2f2761")
+		)
 		(instances
 			(project "CW312T-S6LX9"
 				(path "/06b23300-1735-453c-a53d-6066ed551221"
@@ -816,8 +826,8 @@
 		)
 	)
 	(sheet
-		(at 62.23 143.51)
-		(size 44.45 36.83)
+		(at 31.75 143.51)
+		(size 74.93 36.83)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -828,7 +838,7 @@
 		)
 		(uuid "d67991ef-1465-46d9-b7d2-47fb63c81bd9")
 		(property "Sheetname" "XC6SLX9-3TQG144_2"
-			(at 62.23 142.7984 0)
+			(at 31.75 142.7984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -837,7 +847,7 @@
 			)
 		)
 		(property "Sheetfile" "XC6SLX9-3TQG144_2.kicad_sch"
-			(at 62.23 180.9246 0)
+			(at 31.75 180.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1043,16 +1053,6 @@
 			)
 			(uuid "ce86d4a3-c14f-4c0a-a204-1cd795d11031")
 		)
-		(pin "CLKIN" input
-			(at 106.68 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "7ee54bb0-157f-4822-887a-f7042ea90565")
-		)
 		(pin "GPIO1" input
 			(at 106.68 66.04 0)
 			(effects
@@ -1062,26 +1062,6 @@
 				(justify right)
 			)
 			(uuid "69c411df-19ad-4c75-af39-1dbd887c978c")
-		)
-		(pin "CLKOUT" input
-			(at 106.68 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6f5a5223-f4ed-49be-8cb5-591a8455c73a")
-		)
-		(pin "PDIC" input
-			(at 106.68 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "1af0b464-83de-4580-8f56-06a035b5f914")
 		)
 		(pin "MOSI" input
 			(at 106.68 88.9 0)
@@ -1122,16 +1102,6 @@
 				(justify right)
 			)
 			(uuid "5e501d67-f9f0-4a42-b1a8-309cab8b7a6d")
-		)
-		(pin "PDID" input
-			(at 106.68 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b58c7395-0d4a-4e8f-9f02-6279841bfbc3")
 		)
 		(pin "DONE" input
 			(at 106.68 129.54 0)
@@ -1222,6 +1192,26 @@
 				(justify right)
 			)
 			(uuid "7dafc03c-36b4-45b2-aab4-9d8ccb8875a0")
+		)
+		(pin "CLKO_FROM_FPGA" input
+			(at 106.68 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "939aeb84-4104-40b6-b0cc-0a5350f4de6e")
+		)
+		(pin "CLKI_TO_FPGA" input
+			(at 106.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8dd340a1-2829-4a02-a6d7-ed7a238b666c")
 		)
 		(instances
 			(project "CW312T-S6LX9"
