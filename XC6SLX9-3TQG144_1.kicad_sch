@@ -6,6 +6,7 @@
 	(paper "A4")
 	(lib_symbols
 		(symbol "0603_Yageo_Res:RES_2k2_0603"
+			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -226,6 +227,7 @@
 			)
 		)
 		(symbol "nae_caps:CAP_100n_6.3V_0603"
+			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -866,7 +868,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(property "Footprint" "Package_SO:SOIC-8_5.275x5.275mm_P1.27mm"
 				(at 0 -67.31 0)
 				(effects
 					(font
@@ -5586,7 +5588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_5.275x5.275mm_P1.27mm"
 			(at 132.08 231.14 0)
 			(effects
 				(font

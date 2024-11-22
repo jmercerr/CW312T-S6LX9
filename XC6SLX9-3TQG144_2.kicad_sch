@@ -6,6 +6,7 @@
 	(paper "A4")
 	(lib_symbols
 		(symbol "0603_Yageo_Res:RES_1R1_0603"
+			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -226,6 +227,7 @@
 			)
 		)
 		(symbol "0603_Yageo_Res:RES_2k2_0603"
+			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -446,6 +448,7 @@
 			)
 		)
 		(symbol "0603_Yageo_Res:RES_330R_0603"
+			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -666,6 +669,7 @@
 			)
 		)
 		(symbol "nae_caps:CAP_100n_6.3V_0603"
+			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -850,6 +854,7 @@
 			)
 		)
 		(symbol "nae_caps:CAP_2u2_6.3V_0603"
+			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
