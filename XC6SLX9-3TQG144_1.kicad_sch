@@ -5054,6 +5054,16 @@
 		)
 		(uuid "8569b81c-41dd-449f-b78a-ed4d8408e135")
 	)
+	(text "Confirm footprint/package for U2 -> matched up with the info found in data sheet but gerber of old pcb does not seem to match"
+		(exclude_from_sim no)
+		(at 174.244 215.392 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cced5458-67c9-4cd3-949f-08eb9410a114")
+	)
 	(label "SCK"
 		(at 80.01 121.92 0)
 		(fields_autoplaced yes)
