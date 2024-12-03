@@ -1532,6 +1532,7 @@
 			)
 		)
 		(symbol "tutorial_2_library:DNM_0603_cap"
+			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1716,10 +1717,11 @@
 			)
 		)
 		(symbol "tutorial_2_library:Solder_Jumper_2_NC"
+			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SJ"
+			(property "Reference" "JP"
 				(at -3.81 3.81 0)
 				(effects
 					(font
@@ -4741,7 +4743,7 @@
 		(uuid "00841012-476d-4ef4-bc4e-6c8fa66ddeb4")
 	)
 	(junction
-		(at 168.91 76.2)
+		(at 200.66 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "037efdc2-105f-4d09-8688-4dcd2a61df76")
@@ -4759,7 +4761,7 @@
 		(uuid "0a4cbaf8-da36-4fd4-916c-487235328f94")
 	)
 	(junction
-		(at 179.07 76.2)
+		(at 210.82 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ad28f93-7d04-4f0d-a713-d4330c889af0")
@@ -4771,7 +4773,13 @@
 		(uuid "0d8a98a0-b11c-4cc3-93c8-0af75669b30f")
 	)
 	(junction
-		(at 194.31 88.9)
+		(at 160.02 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1745ccf2-5aa1-435d-b4db-ab18df4a4576")
+	)
+	(junction
+		(at 226.06 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c0eb0a5-5d82-4254-9e8b-897ea530aac4")
@@ -4789,12 +4797,6 @@
 		(uuid "252e36e2-c54f-42ec-8be2-a08922a9da73")
 	)
 	(junction
-		(at 160.02 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e32f164-689b-41cc-820c-492f8ee08519")
-	)
-	(junction
 		(at 109.22 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4807,13 +4809,13 @@
 		(uuid "4c48f63c-818c-465d-b997-1609a2159d53")
 	)
 	(junction
-		(at 229.87 88.9)
+		(at 261.62 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5742dd47-d5f1-4a2d-a5f1-4c6ce94057a1")
 	)
 	(junction
-		(at 179.07 88.9)
+		(at 210.82 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "588ba721-9c7d-4785-b028-eee670fc7f3a")
@@ -4825,7 +4827,7 @@
 		(uuid "5d09571e-c2cc-4aca-aa9a-adec103cfb9a")
 	)
 	(junction
-		(at 219.71 76.2)
+		(at 251.46 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "622ef6d2-8cb6-4544-857e-bdde25759faf")
@@ -4837,13 +4839,13 @@
 		(uuid "632da43d-1bde-4dcb-9f32-83884d513dbc")
 	)
 	(junction
-		(at 189.23 76.2)
+		(at 220.98 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c258c33-01bc-4ee7-bd74-3913d919c786")
 	)
 	(junction
-		(at 209.55 88.9)
+		(at 241.3 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d28a67d-0d76-4f3b-9521-47efbb6f6e9a")
@@ -4885,7 +4887,7 @@
 		(uuid "89c27c8b-5a5f-4277-a818-6f62d5e4fe3f")
 	)
 	(junction
-		(at 199.39 88.9)
+		(at 231.14 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a8a75f4-dcc2-4c3a-ad35-5cc30bfa62d5")
@@ -4897,7 +4899,7 @@
 		(uuid "8c2feec0-0e35-4413-9190-07f6180e30a2")
 	)
 	(junction
-		(at 189.23 88.9)
+		(at 220.98 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c56ef2a-33b5-4eea-9408-4bc0696366c2")
@@ -4915,7 +4917,7 @@
 		(uuid "92608438-c889-46af-a777-1991aa647760")
 	)
 	(junction
-		(at 158.75 88.9)
+		(at 190.5 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a5e8c3d-a668-4580-89b5-7a0c41bf2603")
@@ -4963,19 +4965,19 @@
 		(uuid "a6553154-ca02-4254-9b28-9f9a0ae2ea69")
 	)
 	(junction
-		(at 194.31 76.2)
+		(at 226.06 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8f7c68c-d3e3-45a5-8199-26a406019f6e")
 	)
 	(junction
-		(at 229.87 76.2)
+		(at 261.62 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9c35219-335f-4164-b8cc-b95db9107a9b")
 	)
 	(junction
-		(at 243.84 48.26)
+		(at 170.18 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa37b896-50b1-4c36-b714-2efcee8b8255")
@@ -4993,7 +4995,7 @@
 		(uuid "adecee3e-9503-4d8d-adb8-49d37826b5a7")
 	)
 	(junction
-		(at 209.55 76.2)
+		(at 241.3 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba9ebf03-e51c-4290-a045-daafa6fb08ec")
@@ -5017,7 +5019,7 @@
 		(uuid "c12367cd-3a56-4e37-b1d3-f84755b220de")
 	)
 	(junction
-		(at 168.91 88.9)
+		(at 200.66 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7e18aaa-f1e8-4147-8c04-3567605379b7")
@@ -5041,19 +5043,19 @@
 		(uuid "d863dac2-6ee6-4a4e-851d-12a789ca7272")
 	)
 	(junction
-		(at 158.75 76.2)
+		(at 190.5 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0bd4b91-2232-4472-ada2-5d4487da1fc6")
 	)
 	(junction
-		(at 219.71 88.9)
+		(at 251.46 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea39ac0c-3e3e-40f4-b057-615b66fe2950")
 	)
 	(junction
-		(at 199.39 76.2)
+		(at 231.14 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea7c42af-543a-4b91-99cf-6855128725f5")
@@ -5083,7 +5085,7 @@
 		(uuid "f92cf9b1-b756-4f52-9666-0c3700344f95")
 	)
 	(junction
-		(at 243.84 35.56)
+		(at 170.18 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9e5f232-262c-458f-97de-2e4717846e26")
@@ -5100,7 +5102,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 45.72) (xy 238.76 48.26)
+			(xy 165.1 49.53) (xy 165.1 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5120,7 +5122,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 35.56) (xy 248.92 38.1)
+			(xy 175.26 39.37) (xy 175.26 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5140,7 +5142,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 76.2) (xy 189.23 76.2)
+			(xy 210.82 78.74) (xy 220.98 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5210,16 +5212,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 132.08) (xy 200.66 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11fdf990-ea79-4a80-9870-07e70525e215")
-	)
-	(wire
-		(pts
 			(xy 109.22 124.46) (xy 109.22 127)
 		)
 		(stroke
@@ -5240,7 +5232,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 76.2) (xy 229.87 76.2)
+			(xy 251.46 78.74) (xy 261.62 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5340,7 +5332,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 88.9) (xy 219.71 88.9)
+			(xy 241.3 91.44) (xy 251.46 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5360,7 +5352,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 76.2) (xy 199.39 78.74)
+			(xy 231.14 78.74) (xy 231.14 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5390,7 +5382,17 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 76.2) (xy 199.39 76.2)
+			(xy 180.34 137.16) (xy 180.34 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36595b01-8c46-44c7-9f51-b5f770b0dadb")
+	)
+	(wire
+		(pts
+			(xy 226.06 78.74) (xy 231.14 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5400,7 +5402,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 86.36) (xy 148.59 88.9)
+			(xy 180.34 88.9) (xy 180.34 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5417,6 +5419,16 @@
 			(type default)
 		)
 		(uuid "3b987d2c-9c82-4001-8d77-a7da436e0361")
+	)
+	(wire
+		(pts
+			(xy 190.5 127) (xy 190.5 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c5f2d15-f708-4de1-b469-e67a6751af65")
 	)
 	(wire
 		(pts
@@ -5440,7 +5452,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 132.08) (xy 134.62 134.62)
+			(xy 134.62 134.62) (xy 134.62 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5460,7 +5472,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 45.72) (xy 248.92 48.26)
+			(xy 175.26 49.53) (xy 175.26 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5490,6 +5502,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 127) (xy 200.66 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46ffe415-1a95-4761-ba0f-84c029d73f4d")
+	)
+	(wire
+		(pts
 			(xy 68.58 133.35) (xy 73.66 133.35)
 		)
 		(stroke
@@ -5500,7 +5522,17 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 69.85) (xy 194.31 76.2)
+			(xy 124.46 127) (xy 124.46 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4936b2ae-e8e8-4ef0-af7e-c2bfc00f0c8e")
+	)
+	(wire
+		(pts
+			(xy 226.06 72.39) (xy 226.06 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5520,7 +5552,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 76.2) (xy 168.91 78.74)
+			(xy 200.66 78.74) (xy 200.66 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5530,7 +5562,27 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 76.2) (xy 209.55 76.2)
+			(xy 200.66 137.16) (xy 200.66 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ba2ff40-a0df-493a-aa87-7b7ef3043b58")
+	)
+	(wire
+		(pts
+			(xy 109.22 121.92) (xy 109.22 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c9ced29-9d2e-49db-abec-47b6d9390363")
+	)
+	(wire
+		(pts
+			(xy 231.14 78.74) (xy 241.3 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5550,16 +5602,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 124.46) (xy 160.02 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54f1d08c-ad63-4bc0-878c-c24544545880")
-	)
-	(wire
-		(pts
 			(xy 106.68 180.34) (xy 106.68 187.96)
 		)
 		(stroke
@@ -5570,7 +5612,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 76.2) (xy 189.23 78.74)
+			(xy 220.98 78.74) (xy 220.98 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5610,7 +5652,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 76.2) (xy 219.71 76.2)
+			(xy 241.3 78.74) (xy 251.46 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5620,7 +5662,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 76.2) (xy 168.91 76.2)
+			(xy 190.5 78.74) (xy 200.66 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5640,7 +5682,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 86.36) (xy 219.71 88.9)
+			(xy 251.46 88.9) (xy 251.46 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5650,7 +5692,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 76.2) (xy 209.55 78.74)
+			(xy 241.3 78.74) (xy 241.3 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5660,17 +5702,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 132.08) (xy 180.34 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66c1f673-f65e-4f38-baaa-dc7b7217315e")
-	)
-	(wire
-		(pts
-			(xy 243.84 48.26) (xy 243.84 54.61)
+			(xy 170.18 52.07) (xy 170.18 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5680,7 +5712,17 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 48.26) (xy 248.92 48.26)
+			(xy 154.94 127) (xy 154.94 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a044dc7-c3c6-45a3-ab88-c1190f043d6d")
+	)
+	(wire
+		(pts
+			(xy 170.18 52.07) (xy 175.26 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5690,7 +5732,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 86.36) (xy 158.75 88.9)
+			(xy 190.5 88.9) (xy 190.5 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5707,6 +5749,16 @@
 			(type default)
 		)
 		(uuid "6b4d9c4b-254e-4dd6-bb8e-47659543f003")
+	)
+	(wire
+		(pts
+			(xy 190.5 137.16) (xy 190.5 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f242c3a-0d87-4844-967b-a0881d1472b9")
 	)
 	(wire
 		(pts
@@ -5770,6 +5822,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 113.03) (xy 160.02 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a473bd-6359-4e93-86fd-23d1e97d2147")
+	)
+	(wire
+		(pts
 			(xy 101.6 180.34) (xy 106.68 180.34)
 		)
 		(stroke
@@ -5780,7 +5842,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 76.2) (xy 158.75 76.2)
+			(xy 180.34 78.74) (xy 190.5 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5790,7 +5852,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 88.9) (xy 168.91 88.9)
+			(xy 190.5 91.44) (xy 200.66 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5810,7 +5872,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 76.2) (xy 240.03 78.74)
+			(xy 271.78 78.74) (xy 271.78 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5820,7 +5882,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 88.9) (xy 189.23 88.9)
+			(xy 210.82 91.44) (xy 220.98 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5850,7 +5912,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 86.36) (xy 199.39 88.9)
+			(xy 231.14 88.9) (xy 231.14 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5870,17 +5932,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 132.08) (xy 190.5 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f6c17bc-1016-4950-90cf-7819bc789529")
-	)
-	(wire
-		(pts
-			(xy 229.87 86.36) (xy 229.87 88.9)
+			(xy 261.62 88.9) (xy 261.62 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5890,7 +5942,17 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 88.9) (xy 199.39 88.9)
+			(xy 209.55 137.16) (xy 209.55 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "825b2f53-7ceb-456c-889d-fa4039305b56")
+	)
+	(wire
+		(pts
+			(xy 226.06 91.44) (xy 231.14 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5900,7 +5962,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 29.21) (xy 243.84 35.56)
+			(xy 170.18 33.02) (xy 170.18 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5930,7 +5992,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 76.2) (xy 179.07 76.2)
+			(xy 200.66 78.74) (xy 210.82 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5960,7 +6022,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 86.36) (xy 179.07 88.9)
+			(xy 210.82 88.9) (xy 210.82 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5970,7 +6032,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 88.9) (xy 209.55 88.9)
+			(xy 231.14 91.44) (xy 241.3 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5980,7 +6042,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 76.2) (xy 219.71 78.74)
+			(xy 251.46 78.74) (xy 251.46 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5990,7 +6052,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 132.08) (xy 154.94 134.62)
+			(xy 154.94 134.62) (xy 154.94 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6000,13 +6062,23 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 76.2) (xy 194.31 76.2)
+			(xy 220.98 78.74) (xy 226.06 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8c0b84f9-1020-4b15-96fb-1050ad89af56")
+	)
+	(wire
+		(pts
+			(xy 134.62 127) (xy 134.62 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eb60fe4-5598-4405-b518-9a534f521c26")
 	)
 	(wire
 		(pts
@@ -6030,7 +6102,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 76.2) (xy 148.59 78.74)
+			(xy 180.34 78.74) (xy 180.34 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6040,17 +6112,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 132.08) (xy 209.55 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "940fcd9d-9f37-40c6-85a7-2bbc046cd0d4")
-	)
-	(wire
-		(pts
-			(xy 219.71 88.9) (xy 229.87 88.9)
+			(xy 251.46 91.44) (xy 261.62 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6060,7 +6122,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 88.9) (xy 194.31 95.25)
+			(xy 226.06 91.44) (xy 226.06 97.79)
 		)
 		(stroke
 			(width 0)
@@ -6140,7 +6202,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 88.9) (xy 158.75 88.9)
+			(xy 180.34 91.44) (xy 190.5 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6160,7 +6222,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 86.36) (xy 209.55 88.9)
+			(xy 241.3 88.9) (xy 241.3 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6170,7 +6232,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 86.36) (xy 189.23 88.9)
+			(xy 220.98 88.9) (xy 220.98 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6180,7 +6242,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 88.9) (xy 194.31 88.9)
+			(xy 220.98 91.44) (xy 226.06 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6210,7 +6272,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 35.56) (xy 238.76 38.1)
+			(xy 165.1 39.37) (xy 165.1 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6220,7 +6282,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 86.36) (xy 168.91 88.9)
+			(xy 200.66 88.9) (xy 200.66 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6240,7 +6302,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 76.2) (xy 158.75 78.74)
+			(xy 190.5 78.74) (xy 190.5 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6270,7 +6332,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 132.08) (xy 124.46 134.62)
+			(xy 124.46 134.62) (xy 124.46 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6330,7 +6392,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 76.2) (xy 240.03 76.2)
+			(xy 261.62 78.74) (xy 271.78 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6360,23 +6422,13 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 76.2) (xy 229.87 78.74)
+			(xy 261.62 78.74) (xy 261.62 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c071fb0d-7cd8-4a64-9f70-889afdc04b36")
-	)
-	(wire
-		(pts
-			(xy 109.22 121.92) (xy 109.22 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c17a9ac3-c0f3-4416-b2e9-d400c2afe121")
 	)
 	(wire
 		(pts
@@ -6410,7 +6462,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 76.2) (xy 179.07 78.74)
+			(xy 210.82 78.74) (xy 210.82 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6420,7 +6472,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 132.08) (xy 144.78 134.62)
+			(xy 144.78 134.62) (xy 144.78 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6430,7 +6482,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 88.9) (xy 240.03 88.9)
+			(xy 261.62 91.44) (xy 271.78 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6457,6 +6509,16 @@
 			(type default)
 		)
 		(uuid "cc45992f-11f7-4936-b4df-e2071be4861d")
+	)
+	(wire
+		(pts
+			(xy 144.78 127) (xy 144.78 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc99d29c-7984-46f7-9d25-f3670f671c4b")
 	)
 	(wire
 		(pts
@@ -6510,7 +6572,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 48.26) (xy 243.84 48.26)
+			(xy 165.1 52.07) (xy 170.18 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6550,7 +6612,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 86.36) (xy 240.03 88.9)
+			(xy 271.78 88.9) (xy 271.78 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6630,13 +6692,23 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 35.56) (xy 248.92 35.56)
+			(xy 170.18 39.37) (xy 175.26 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e88d9312-b7fe-402a-a240-ca8e4eaf9e72")
+	)
+	(wire
+		(pts
+			(xy 209.55 127) (xy 209.55 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee6ab65d-687b-4cf6-b3ba-adb6e3aa1e23")
 	)
 	(wire
 		(pts
@@ -6647,6 +6719,16 @@
 			(type default)
 		)
 		(uuid "f12f7253-4da0-4928-a50c-29c4a191c260")
+	)
+	(wire
+		(pts
+			(xy 180.34 127) (xy 180.34 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f720ae6e-1826-41e1-bf36-bf37eca7582d")
 	)
 	(wire
 		(pts
@@ -6680,7 +6762,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 88.9) (xy 179.07 88.9)
+			(xy 200.66 91.44) (xy 210.82 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6720,7 +6802,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 35.56) (xy 243.84 35.56)
+			(xy 165.1 39.37) (xy 170.18 39.37)
 		)
 		(stroke
 			(width 0)
@@ -6747,50 +6829,6 @@
 			(type default)
 		)
 		(uuid "ffdfb88b-2d44-4094-9d14-7e35ed13d8a5")
-	)
-	(label "TCK"
-		(at 57.15 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5918f6ba-32bf-40d3-ac0b-af4c86d4e45f")
-	)
-	(label "TMS"
-		(at 57.15 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "88bd1061-89ca-4592-9660-2868c761f40e")
-	)
-	(label "TDO"
-		(at 57.15 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ab8d23ff-1bf2-40f0-890f-0d96c95524ce")
-	)
-	(label "TDI"
-		(at 57.15 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "adf5c976-f3a9-47a0-bbd6-4409c44505c9")
 	)
 	(hierarchical_label "SHUNTL"
 		(shape input)
@@ -6878,7 +6916,7 @@
 	)
 	(symbol
 		(lib_id "nae_caps:CAP_100n_6.3V_0603")
-		(at 189.23 82.55 270)
+		(at 220.98 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6886,7 +6924,7 @@
 		(dnp no)
 		(uuid "074d2eb9-74ac-45ab-bec2-5b7799d26dca")
 		(property "Reference" "C5"
-			(at 191.516 81.28 90)
+			(at 223.266 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6895,7 +6933,7 @@
 			)
 		)
 		(property "Value" "CAP_100n_6.3V_0603"
-			(at 170.18 90.17 0)
+			(at 201.93 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6904,7 +6942,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 173.99 78.74 0)
+			(at 205.74 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6913,7 +6951,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 179.07 91.44 0)
+			(at 210.82 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6922,7 +6960,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 6.3V X7R 0603"
-			(at 181.61 81.28 0)
+			(at 213.36 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6931,7 +6969,7 @@
 			)
 		)
 		(property "Display Value" "100n"
-			(at 191.516 83.82 90)
+			(at 223.266 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6940,7 +6978,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 170.18 69.85 0)
+			(at 201.93 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6949,7 +6987,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CC0603KRX7R5BB104"
-			(at 176.53 78.74 0)
+			(at 208.28 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6958,7 +6996,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 167.64 63.5 0)
+			(at 199.39 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6967,7 +7005,7 @@
 			)
 		)
 		(property "Supplier 1 Part Number" "13-CC0603KRX7R5BB104CT-ND"
-			(at 167.64 91.44 0)
+			(at 199.39 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6976,7 +7014,7 @@
 			)
 		)
 		(property "Supplier 2" "no_data"
-			(at 185.42 82.55 0)
+			(at 217.17 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6985,7 +7023,7 @@
 			)
 		)
 		(property "Supplier 2 Part Number" "no_data"
-			(at 184.15 82.55 0)
+			(at 215.9 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7010,7 +7048,7 @@
 	)
 	(symbol
 		(lib_id "tutorial_2_library:DNM_0603_cap")
-		(at 154.94 128.27 270)
+		(at 154.94 130.81 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7018,51 +7056,6 @@
 		(dnp yes)
 		(uuid "07e95097-ede6-4f16-bc48-f19375081c13")
 		(property "Reference" "C12"
-			(at 157.226 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DNM_CAP_0603"
-			(at 135.89 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 139.7 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf"
-			(at 144.78 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Non mounted 0603_1608 ceramic capacitor"
-			(at 147.32 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Display Value" "DNM"
 			(at 157.226 129.54 90)
 			(effects
 				(font
@@ -7071,8 +7064,53 @@
 				(justify left)
 			)
 		)
+		(property "Value" "DNM_CAP_0603"
+			(at 135.89 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 139.7 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf"
+			(at 144.78 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non mounted 0603_1608 ceramic capacitor"
+			(at 147.32 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display Value" "DNM"
+			(at 157.226 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Manufacturer" "KEMET"
-			(at 135.89 115.57 0)
+			(at 135.89 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7081,7 +7119,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "C0603C225K4PAC7867"
-			(at 142.24 124.46 0)
+			(at 142.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7090,7 +7128,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 133.35 109.22 0)
+			(at 133.35 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7099,7 +7137,7 @@
 			)
 		)
 		(property "Supplier 1 Part Number" "399-C0603C225K4PAC7867CT-ND"
-			(at 133.35 137.16 0)
+			(at 133.35 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7108,7 +7146,7 @@
 			)
 		)
 		(property "Supplier 2" ""
-			(at 154.94 128.27 0)
+			(at 154.94 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7117,7 +7155,7 @@
 			)
 		)
 		(property "Supplier 2 Part Number" ""
-			(at 154.94 128.27 0)
+			(at 154.94 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7338,7 +7376,7 @@
 	)
 	(symbol
 		(lib_id "tutorial_2_library:DNM_0603_cap")
-		(at 144.78 128.27 270)
+		(at 144.78 130.81 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7346,51 +7384,6 @@
 		(dnp yes)
 		(uuid "113bdcd0-b135-4cfa-a9af-0949aa4a023b")
 		(property "Reference" "C11"
-			(at 147.066 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DNM_CAP_0603"
-			(at 125.73 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 129.54 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf"
-			(at 134.62 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Non mounted 0603_1608 ceramic capacitor"
-			(at 137.16 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Display Value" "DNM"
 			(at 147.066 129.54 90)
 			(effects
 				(font
@@ -7399,8 +7392,53 @@
 				(justify left)
 			)
 		)
+		(property "Value" "DNM_CAP_0603"
+			(at 125.73 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 129.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf"
+			(at 134.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non mounted 0603_1608 ceramic capacitor"
+			(at 137.16 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display Value" "DNM"
+			(at 147.066 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Manufacturer" "KEMET"
-			(at 125.73 115.57 0)
+			(at 125.73 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7409,7 +7447,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "C0603C225K4PAC7867"
-			(at 132.08 124.46 0)
+			(at 132.08 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7418,7 +7456,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 123.19 109.22 0)
+			(at 123.19 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7427,7 +7465,7 @@
 			)
 		)
 		(property "Supplier 1 Part Number" "399-C0603C225K4PAC7867CT-ND"
-			(at 123.19 137.16 0)
+			(at 123.19 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7436,7 +7474,7 @@
 			)
 		)
 		(property "Supplier 2" ""
-			(at 144.78 128.27 0)
+			(at 144.78 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7445,7 +7483,7 @@
 			)
 		)
 		(property "Supplier 2 Part Number" ""
-			(at 144.78 128.27 0)
+			(at 144.78 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8026,7 +8064,7 @@
 	)
 	(symbol
 		(lib_id "nae_caps:CAP_2u2_6.3V_0603")
-		(at 229.87 82.55 270)
+		(at 261.62 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8034,7 +8072,7 @@
 		(dnp no)
 		(uuid "2b995624-03b5-4599-9bf4-210a199892dc")
 		(property "Reference" "C20"
-			(at 232.156 81.28 90)
+			(at 263.906 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8043,7 +8081,7 @@
 			)
 		)
 		(property "Value" "CAP_2u2_6.3V_0603"
-			(at 210.82 90.17 0)
+			(at 242.57 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8052,7 +8090,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 214.63 78.74 0)
+			(at 246.38 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8061,7 +8099,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 219.71 91.44 0)
+			(at 251.46 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8070,7 +8108,7 @@
 			)
 		)
 		(property "Description" "CAP CER 2.2UF 6.3V X7R 0603"
-			(at 222.25 81.28 0)
+			(at 254 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8079,7 +8117,7 @@
 			)
 		)
 		(property "Display Value" "2u2"
-			(at 232.156 83.82 90)
+			(at 263.906 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8088,7 +8126,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 210.82 69.85 0)
+			(at 242.57 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8097,7 +8135,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CC0603KRX7R5BB225"
-			(at 217.17 78.74 0)
+			(at 248.92 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8106,7 +8144,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 208.28 63.5 0)
+			(at 240.03 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8115,7 +8153,7 @@
 			)
 		)
 		(property "Supplier 1 Part Number" "311-1795-1-ND"
-			(at 208.28 91.44 0)
+			(at 240.03 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8124,7 +8162,7 @@
 			)
 		)
 		(property "Supplier 2" "no_data"
-			(at 226.06 82.55 0)
+			(at 257.81 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8133,7 +8171,7 @@
 			)
 		)
 		(property "Supplier 2 Part Number" "no_data"
-			(at 224.79 82.55 0)
+			(at 256.54 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8158,7 +8196,7 @@
 	)
 	(symbol
 		(lib_id "nae_caps:CAP_100n_6.3V_0603")
-		(at 168.91 82.55 270)
+		(at 200.66 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8166,7 +8204,7 @@
 		(dnp no)
 		(uuid "2ed03685-b4de-417b-920c-784bca28febb")
 		(property "Reference" "C3"
-			(at 171.196 81.28 90)
+			(at 202.946 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8175,7 +8213,7 @@
 			)
 		)
 		(property "Value" "CAP_100n_6.3V_0603"
-			(at 149.86 90.17 0)
+			(at 181.61 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8184,7 +8222,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 153.67 78.74 0)
+			(at 185.42 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8193,7 +8231,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 158.75 91.44 0)
+			(at 190.5 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8202,7 +8240,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 6.3V X7R 0603"
-			(at 161.29 81.28 0)
+			(at 193.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8211,7 +8249,7 @@
 			)
 		)
 		(property "Display Value" "100n"
-			(at 171.196 83.82 90)
+			(at 202.946 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8220,7 +8258,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 149.86 69.85 0)
+			(at 181.61 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8229,7 +8267,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CC0603KRX7R5BB104"
-			(at 156.21 78.74 0)
+			(at 187.96 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8238,7 +8276,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 147.32 63.5 0)
+			(at 179.07 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8247,7 +8285,7 @@
 			)
 		)
 		(property "Supplier 1 Part Number" "13-CC0603KRX7R5BB104CT-ND"
-			(at 147.32 91.44 0)
+			(at 179.07 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8256,7 +8294,7 @@
 			)
 		)
 		(property "Supplier 2" "no_data"
-			(at 165.1 82.55 0)
+			(at 196.85 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8265,7 +8303,7 @@
 			)
 		)
 		(property "Supplier 2 Part Number" "no_data"
-			(at 163.83 82.55 0)
+			(at 195.58 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8290,7 +8328,7 @@
 	)
 	(symbol
 		(lib_id "nae_caps:CAP_100n_6.3V_0603")
-		(at 158.75 82.55 270)
+		(at 190.5 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8298,7 +8336,7 @@
 		(dnp no)
 		(uuid "2f4c7936-be2f-41a9-b320-19d5ee579cc8")
 		(property "Reference" "C2"
-			(at 161.036 81.28 90)
+			(at 192.786 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8307,7 +8345,7 @@
 			)
 		)
 		(property "Value" "CAP_100n_6.3V_0603"
-			(at 139.7 90.17 0)
+			(at 171.45 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8316,7 +8354,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 143.51 78.74 0)
+			(at 175.26 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8325,7 +8363,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 148.59 91.44 0)
+			(at 180.34 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8334,7 +8372,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 6.3V X7R 0603"
-			(at 151.13 81.28 0)
+			(at 182.88 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8343,7 +8381,7 @@
 			)
 		)
 		(property "Display Value" "100n"
-			(at 161.036 83.82 90)
+			(at 192.786 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8352,7 +8390,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 139.7 69.85 0)
+			(at 171.45 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8361,7 +8399,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CC0603KRX7R5BB104"
-			(at 146.05 78.74 0)
+			(at 177.8 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8370,7 +8408,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 137.16 63.5 0)
+			(at 168.91 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8379,7 +8417,7 @@
 			)
 		)
 		(property "Supplier 1 Part Number" "13-CC0603KRX7R5BB104CT-ND"
-			(at 137.16 91.44 0)
+			(at 168.91 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8388,7 +8426,7 @@
 			)
 		)
 		(property "Supplier 2" "no_data"
-			(at 154.94 82.55 0)
+			(at 186.69 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8397,7 +8435,7 @@
 			)
 		)
 		(property "Supplier 2 Part Number" "no_data"
-			(at 153.67 82.55 0)
+			(at 185.42 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8422,7 +8460,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 134.62 0)
+		(at 124.46 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8431,7 +8469,7 @@
 		(fields_autoplaced yes)
 		(uuid "3924636e-4899-47dd-b010-f1cf8b64d5ca")
 		(property "Reference" "#PWR015"
-			(at 124.46 140.97 0)
+			(at 124.46 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8440,7 +8478,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 139.7 0)
+			(at 124.46 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8448,7 +8486,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 134.62 0)
+			(at 124.46 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8457,7 +8495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 134.62 0)
+			(at 124.46 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8466,7 +8504,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 134.62 0)
+			(at 124.46 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9110,7 +9148,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 134.62 0)
+		(at 144.78 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9119,7 +9157,7 @@
 		(fields_autoplaced yes)
 		(uuid "4bb27042-7b8f-4341-aa07-8bbcf88ffdb4")
 		(property "Reference" "#PWR017"
-			(at 144.78 140.97 0)
+			(at 144.78 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9128,7 +9166,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 139.7 0)
+			(at 144.78 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9136,7 +9174,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 134.62 0)
+			(at 144.78 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9145,7 +9183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 134.62 0)
+			(at 144.78 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9154,7 +9192,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 134.62 0)
+			(at 144.78 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9176,7 +9214,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 134.62 0)
+		(at 200.66 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9185,7 +9223,7 @@
 		(fields_autoplaced yes)
 		(uuid "4cb1df6e-b463-4ec7-ac1d-f8af2cda92e3")
 		(property "Reference" "#PWR021"
-			(at 200.66 140.97 0)
+			(at 200.66 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9194,7 +9232,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 139.7 0)
+			(at 200.66 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9202,7 +9240,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 134.62 0)
+			(at 200.66 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9211,7 +9249,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 134.62 0)
+			(at 200.66 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9220,7 +9258,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 134.62 0)
+			(at 200.66 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9308,7 +9346,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 134.62 0)
+		(at 209.55 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9317,7 +9355,7 @@
 		(fields_autoplaced yes)
 		(uuid "542d0457-0ac0-4de9-8495-bc1d4890ad3a")
 		(property "Reference" "#PWR022"
-			(at 209.55 140.97 0)
+			(at 209.55 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9326,7 +9364,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.55 139.7 0)
+			(at 209.55 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9334,7 +9372,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 134.62 0)
+			(at 209.55 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9343,7 +9381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 134.62 0)
+			(at 209.55 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9352,7 +9390,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 134.62 0)
+			(at 209.55 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9374,7 +9412,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 134.62 0)
+		(at 154.94 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9383,7 +9421,7 @@
 		(fields_autoplaced yes)
 		(uuid "56384e11-eae6-49fc-9af2-410f91e19d48")
 		(property "Reference" "#PWR018"
-			(at 154.94 140.97 0)
+			(at 154.94 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9392,7 +9430,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 139.7 0)
+			(at 154.94 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9400,7 +9438,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 134.62 0)
+			(at 154.94 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9409,7 +9447,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 134.62 0)
+			(at 154.94 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9418,7 +9456,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 134.62 0)
+			(at 154.94 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9440,7 +9478,7 @@
 	)
 	(symbol
 		(lib_id "nae_caps:CAP_2u2_6.3V_0603")
-		(at 240.03 82.55 270)
+		(at 271.78 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9448,7 +9486,7 @@
 		(dnp no)
 		(uuid "619d47b8-fe06-4c18-9609-a7cab7a299f4")
 		(property "Reference" "C21"
-			(at 242.316 81.28 90)
+			(at 274.066 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9457,7 +9495,7 @@
 			)
 		)
 		(property "Value" "CAP_2u2_6.3V_0603"
-			(at 220.98 90.17 0)
+			(at 252.73 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9466,7 +9504,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 224.79 78.74 0)
+			(at 256.54 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9475,7 +9513,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 229.87 91.44 0)
+			(at 261.62 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9484,7 +9522,7 @@
 			)
 		)
 		(property "Description" "CAP CER 2.2UF 6.3V X7R 0603"
-			(at 232.41 81.28 0)
+			(at 264.16 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9493,7 +9531,7 @@
 			)
 		)
 		(property "Display Value" "2u2"
-			(at 242.316 83.82 90)
+			(at 274.066 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9502,7 +9540,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 220.98 69.85 0)
+			(at 252.73 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9511,7 +9549,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CC0603KRX7R5BB225"
-			(at 227.33 78.74 0)
+			(at 259.08 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9520,7 +9558,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 218.44 63.5 0)
+			(at 250.19 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9529,7 +9567,7 @@
 			)
 		)
 		(property "Supplier 1 Part Number" "311-1795-1-ND"
-			(at 218.44 91.44 0)
+			(at 250.19 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9538,7 +9576,7 @@
 			)
 		)
 		(property "Supplier 2" "no_data"
-			(at 236.22 82.55 0)
+			(at 267.97 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9547,7 +9585,7 @@
 			)
 		)
 		(property "Supplier 2 Part Number" "no_data"
-			(at 234.95 82.55 0)
+			(at 266.7 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9572,7 +9610,7 @@
 	)
 	(symbol
 		(lib_id "nae_caps:CAP_100n_6.3V_0603")
-		(at 148.59 82.55 270)
+		(at 180.34 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9580,7 +9618,7 @@
 		(dnp no)
 		(uuid "6b95e805-fa3f-4b91-a654-264d0703f47b")
 		(property "Reference" "C1"
-			(at 150.876 81.28 90)
+			(at 182.626 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9589,7 +9627,7 @@
 			)
 		)
 		(property "Value" "CAP_100n_6.3V_0603"
-			(at 129.54 90.17 0)
+			(at 161.29 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9598,7 +9636,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 133.35 78.74 0)
+			(at 165.1 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9607,7 +9645,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 138.43 91.44 0)
+			(at 170.18 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9616,7 +9654,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 6.3V X7R 0603"
-			(at 140.97 81.28 0)
+			(at 172.72 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9625,7 +9663,7 @@
 			)
 		)
 		(property "Display Value" "100n"
-			(at 150.876 83.82 90)
+			(at 182.626 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9634,7 +9672,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 129.54 69.85 0)
+			(at 161.29 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9643,7 +9681,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CC0603KRX7R5BB104"
-			(at 135.89 78.74 0)
+			(at 167.64 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9652,7 +9690,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 127 63.5 0)
+			(at 158.75 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9661,7 +9699,7 @@
 			)
 		)
 		(property "Supplier 1 Part Number" "13-CC0603KRX7R5BB104CT-ND"
-			(at 127 91.44 0)
+			(at 158.75 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9670,7 +9708,7 @@
 			)
 		)
 		(property "Supplier 2" "no_data"
-			(at 144.78 82.55 0)
+			(at 176.53 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9679,7 +9717,7 @@
 			)
 		)
 		(property "Supplier 2 Part Number" "no_data"
-			(at 143.51 82.55 0)
+			(at 175.26 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9704,7 +9742,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 243.84 29.21 0)
+		(at 170.18 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9713,7 +9751,7 @@
 		(fields_autoplaced yes)
 		(uuid "6fbcd777-7bae-4304-a408-719c8ea224f7")
 		(property "Reference" "#PWR025"
-			(at 243.84 33.02 0)
+			(at 170.18 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9722,7 +9760,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 243.84 24.13 0)
+			(at 170.18 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9730,7 +9768,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 29.21 0)
+			(at 170.18 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9739,7 +9777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 29.21 0)
+			(at 170.18 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9748,7 +9786,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 243.84 29.21 0)
+			(at 170.18 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9770,7 +9808,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 134.62 0)
+		(at 134.62 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9779,7 +9817,7 @@
 		(fields_autoplaced yes)
 		(uuid "78415b1e-d352-467f-a673-e4a8f5b34fd1")
 		(property "Reference" "#PWR016"
-			(at 134.62 140.97 0)
+			(at 134.62 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9788,7 +9826,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 139.7 0)
+			(at 134.62 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9796,7 +9834,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 134.62 0)
+			(at 134.62 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9805,7 +9843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 134.62 0)
+			(at 134.62 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9814,7 +9852,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 134.62 0)
+			(at 134.62 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10034,7 +10072,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 134.62 0)
+		(at 180.34 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10043,7 +10081,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a42cc29-3166-4e58-abfb-fcdb06f95e3b")
 		(property "Reference" "#PWR019"
-			(at 180.34 140.97 0)
+			(at 180.34 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10052,7 +10090,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 139.7 0)
+			(at 180.34 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10060,7 +10098,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 134.62 0)
+			(at 180.34 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10069,7 +10107,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 134.62 0)
+			(at 180.34 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10078,7 +10116,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 134.62 0)
+			(at 180.34 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10100,7 +10138,7 @@
 	)
 	(symbol
 		(lib_id "nae_caps:CAP_100n_6.3V_0603")
-		(at 180.34 128.27 270)
+		(at 180.34 130.81 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10108,51 +10146,6 @@
 		(dnp no)
 		(uuid "9f39b1c4-9098-4766-b6a7-c24ec16ea0d5")
 		(property "Reference" "C13"
-			(at 182.626 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CAP_100n_6.3V_0603"
-			(at 161.29 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 165.1 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 170.18 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 6.3V X7R 0603"
-			(at 172.72 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Display Value" "100n"
 			(at 182.626 129.54 90)
 			(effects
 				(font
@@ -10161,8 +10154,53 @@
 				(justify left)
 			)
 		)
+		(property "Value" "CAP_100n_6.3V_0603"
+			(at 161.29 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 165.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+			(at 170.18 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 6.3V X7R 0603"
+			(at 172.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display Value" "100n"
+			(at 182.626 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Manufacturer" "YAGEO"
-			(at 161.29 115.57 0)
+			(at 161.29 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10171,7 +10209,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CC0603KRX7R5BB104"
-			(at 167.64 124.46 0)
+			(at 167.64 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10180,7 +10218,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 158.75 109.22 0)
+			(at 158.75 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10189,7 +10227,7 @@
 			)
 		)
 		(property "Supplier 1 Part Number" "13-CC0603KRX7R5BB104CT-ND"
-			(at 158.75 137.16 0)
+			(at 158.75 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10198,7 +10236,7 @@
 			)
 		)
 		(property "Supplier 2" "no_data"
-			(at 176.53 128.27 0)
+			(at 176.53 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10207,7 +10245,7 @@
 			)
 		)
 		(property "Supplier 2 Part Number" "no_data"
-			(at 175.26 128.27 0)
+			(at 175.26 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10240,7 +10278,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ff8b8ab-286a-4e5a-9a0f-3905dd10a569")
-		(property "Reference" "SJ2"
+		(property "Reference" "JP2"
 			(at 46.482 47.498 90)
 			(effects
 				(font
@@ -10357,7 +10395,7 @@
 		(instances
 			(project ""
 				(path "/06b23300-1735-453c-a53d-6066ed551221/d67991ef-1465-46d9-b7d2-47fb63c81bd9"
-					(reference "SJ2")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -10365,7 +10403,7 @@
 	)
 	(symbol
 		(lib_id "nae_caps:CAP_100n_6.3V_0603")
-		(at 179.07 82.55 270)
+		(at 210.82 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10373,7 +10411,7 @@
 		(dnp no)
 		(uuid "a24a80bf-f281-4fa4-9d60-5853b4c9777d")
 		(property "Reference" "C4"
-			(at 181.356 81.28 90)
+			(at 213.106 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10382,7 +10420,7 @@
 			)
 		)
 		(property "Value" "CAP_100n_6.3V_0603"
-			(at 160.02 90.17 0)
+			(at 191.77 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10391,7 +10429,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 163.83 78.74 0)
+			(at 195.58 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10400,7 +10438,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 168.91 91.44 0)
+			(at 200.66 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10409,7 +10447,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 6.3V X7R 0603"
-			(at 171.45 81.28 0)
+			(at 203.2 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10418,7 +10456,7 @@
 			)
 		)
 		(property "Display Value" "100n"
-			(at 181.356 83.82 90)
+			(at 213.106 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10427,7 +10465,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 160.02 69.85 0)
+			(at 191.77 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10436,7 +10474,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CC0603KRX7R5BB104"
-			(at 166.37 78.74 0)
+			(at 198.12 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10445,7 +10483,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 157.48 63.5 0)
+			(at 189.23 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10454,7 +10492,7 @@
 			)
 		)
 		(property "Supplier 1 Part Number" "13-CC0603KRX7R5BB104CT-ND"
-			(at 157.48 91.44 0)
+			(at 189.23 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10463,7 +10501,7 @@
 			)
 		)
 		(property "Supplier 2" "no_data"
-			(at 175.26 82.55 0)
+			(at 207.01 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10472,7 +10510,7 @@
 			)
 		)
 		(property "Supplier 2 Part Number" "no_data"
-			(at 173.99 82.55 0)
+			(at 205.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10497,16 +10535,15 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 194.31 69.85 0)
+		(at 226.06 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a648f6d8-752b-478a-b633-93294bc985fc")
 		(property "Reference" "#PWR024"
-			(at 194.31 73.66 0)
+			(at 226.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10515,7 +10552,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 194.31 64.77 0)
+			(at 226.06 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10523,7 +10560,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 69.85 0)
+			(at 226.06 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10532,7 +10569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 69.85 0)
+			(at 226.06 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10541,7 +10578,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 194.31 69.85 0)
+			(at 226.06 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10693,7 +10730,7 @@
 	)
 	(symbol
 		(lib_id "nae_caps:CAP_100n_6.3V_0603")
-		(at 238.76 41.91 270)
+		(at 165.1 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10701,7 +10738,7 @@
 		(dnp no)
 		(uuid "ae430a09-a8ce-47a5-8241-968752013cf8")
 		(property "Reference" "C18"
-			(at 241.046 40.64 90)
+			(at 167.386 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10710,7 +10747,7 @@
 			)
 		)
 		(property "Value" "CAP_100n_6.3V_0603"
-			(at 219.71 49.53 0)
+			(at 146.05 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10719,7 +10756,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 223.52 38.1 0)
+			(at 149.86 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10728,7 +10765,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 228.6 50.8 0)
+			(at 154.94 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10737,7 +10774,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 6.3V X7R 0603"
-			(at 231.14 40.64 0)
+			(at 157.48 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10746,7 +10783,7 @@
 			)
 		)
 		(property "Display Value" "100n"
-			(at 241.046 43.18 90)
+			(at 167.386 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10755,7 +10792,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 219.71 29.21 0)
+			(at 146.05 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10764,7 +10801,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CC0603KRX7R5BB104"
-			(at 226.06 38.1 0)
+			(at 152.4 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10773,7 +10810,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 217.17 22.86 0)
+			(at 143.51 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10782,7 +10819,7 @@
 			)
 		)
 		(property "Supplier 1 Part Number" "13-CC0603KRX7R5BB104CT-ND"
-			(at 217.17 50.8 0)
+			(at 143.51 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10791,7 +10828,7 @@
 			)
 		)
 		(property "Supplier 2" "no_data"
-			(at 234.95 41.91 0)
+			(at 161.29 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10800,7 +10837,7 @@
 			)
 		)
 		(property "Supplier 2 Part Number" "no_data"
-			(at 233.68 41.91 0)
+			(at 160.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10955,7 +10992,7 @@
 	)
 	(symbol
 		(lib_id "nae_caps:CAP_100n_6.3V_0603")
-		(at 219.71 82.55 270)
+		(at 251.46 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10963,7 +11000,7 @@
 		(dnp no)
 		(uuid "b39b4335-bb2f-49c6-808c-05a5cbc888de")
 		(property "Reference" "C8"
-			(at 221.996 81.28 90)
+			(at 253.746 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10972,7 +11009,7 @@
 			)
 		)
 		(property "Value" "CAP_100n_6.3V_0603"
-			(at 200.66 90.17 0)
+			(at 232.41 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10981,7 +11018,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 204.47 78.74 0)
+			(at 236.22 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10990,7 +11027,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 209.55 91.44 0)
+			(at 241.3 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10999,7 +11036,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 6.3V X7R 0603"
-			(at 212.09 81.28 0)
+			(at 243.84 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11008,7 +11045,7 @@
 			)
 		)
 		(property "Display Value" "100n"
-			(at 221.996 83.82 90)
+			(at 253.746 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11017,7 +11054,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 200.66 69.85 0)
+			(at 232.41 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11026,7 +11063,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CC0603KRX7R5BB104"
-			(at 207.01 78.74 0)
+			(at 238.76 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11035,7 +11072,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 198.12 63.5 0)
+			(at 229.87 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11044,7 +11081,7 @@
 			)
 		)
 		(property "Supplier 1 Part Number" "13-CC0603KRX7R5BB104CT-ND"
-			(at 198.12 91.44 0)
+			(at 229.87 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11053,7 +11090,7 @@
 			)
 		)
 		(property "Supplier 2" "no_data"
-			(at 215.9 82.55 0)
+			(at 247.65 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11062,7 +11099,7 @@
 			)
 		)
 		(property "Supplier 2 Part Number" "no_data"
-			(at 214.63 82.55 0)
+			(at 246.38 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11087,7 +11124,7 @@
 	)
 	(symbol
 		(lib_id "nae_caps:CAP_100n_6.3V_0603")
-		(at 199.39 82.55 270)
+		(at 231.14 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11095,7 +11132,7 @@
 		(dnp no)
 		(uuid "b5b76b70-e4f3-44ce-aec1-e409e1530467")
 		(property "Reference" "C6"
-			(at 201.676 81.28 90)
+			(at 233.426 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11104,7 +11141,7 @@
 			)
 		)
 		(property "Value" "CAP_100n_6.3V_0603"
-			(at 180.34 90.17 0)
+			(at 212.09 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11113,7 +11150,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 184.15 78.74 0)
+			(at 215.9 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11122,7 +11159,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 189.23 91.44 0)
+			(at 220.98 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11131,7 +11168,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 6.3V X7R 0603"
-			(at 191.77 81.28 0)
+			(at 223.52 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11140,7 +11177,7 @@
 			)
 		)
 		(property "Display Value" "100n"
-			(at 201.676 83.82 90)
+			(at 233.426 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11149,7 +11186,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 180.34 69.85 0)
+			(at 212.09 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11158,7 +11195,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CC0603KRX7R5BB104"
-			(at 186.69 78.74 0)
+			(at 218.44 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11167,7 +11204,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 177.8 63.5 0)
+			(at 209.55 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11176,7 +11213,7 @@
 			)
 		)
 		(property "Supplier 1 Part Number" "13-CC0603KRX7R5BB104CT-ND"
-			(at 177.8 91.44 0)
+			(at 209.55 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11185,7 +11222,7 @@
 			)
 		)
 		(property "Supplier 2" "no_data"
-			(at 195.58 82.55 0)
+			(at 227.33 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11194,7 +11231,7 @@
 			)
 		)
 		(property "Supplier 2 Part Number" "no_data"
-			(at 194.31 82.55 0)
+			(at 226.06 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11227,7 +11264,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0dea24a-2ca6-4eaf-bd19-8b6ccc39acf6")
-		(property "Reference" "SJ1"
+		(property "Reference" "JP1"
 			(at 46.482 42.418 90)
 			(effects
 				(font
@@ -11344,7 +11381,7 @@
 		(instances
 			(project "CW312T-S6LX9"
 				(path "/06b23300-1735-453c-a53d-6066ed551221/d67991ef-1465-46d9-b7d2-47fb63c81bd9"
-					(reference "SJ1")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -11352,7 +11389,7 @@
 	)
 	(symbol
 		(lib_id "nae_caps:CAP_2u2_6.3V_0603")
-		(at 209.55 128.27 270)
+		(at 209.55 130.81 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11360,51 +11397,6 @@
 		(dnp no)
 		(uuid "c491f5ae-9876-4689-8e1c-a997b7ffe80e")
 		(property "Reference" "C16"
-			(at 211.836 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CAP_2u2_6.3V_0603"
-			(at 190.5 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 194.31 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 199.39 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 2.2UF 6.3V X7R 0603"
-			(at 201.93 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Display Value" "2u2"
 			(at 211.836 129.54 90)
 			(effects
 				(font
@@ -11413,8 +11405,53 @@
 				(justify left)
 			)
 		)
+		(property "Value" "CAP_2u2_6.3V_0603"
+			(at 190.5 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 194.31 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+			(at 199.39 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 2.2UF 6.3V X7R 0603"
+			(at 201.93 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display Value" "2u2"
+			(at 211.836 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Manufacturer" "YAGEO"
-			(at 190.5 115.57 0)
+			(at 190.5 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11423,7 +11460,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CC0603KRX7R5BB225"
-			(at 196.85 124.46 0)
+			(at 196.85 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11432,7 +11469,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 187.96 109.22 0)
+			(at 187.96 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11441,7 +11478,7 @@
 			)
 		)
 		(property "Supplier 1 Part Number" "311-1795-1-ND"
-			(at 187.96 137.16 0)
+			(at 187.96 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11450,7 +11487,7 @@
 			)
 		)
 		(property "Supplier 2" "no_data"
-			(at 205.74 128.27 0)
+			(at 205.74 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11459,7 +11496,7 @@
 			)
 		)
 		(property "Supplier 2 Part Number" "no_data"
-			(at 204.47 128.27 0)
+			(at 204.47 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11550,7 +11587,7 @@
 	)
 	(symbol
 		(lib_id "nae_caps:CAP_100n_6.3V_0603")
-		(at 248.92 41.91 270)
+		(at 175.26 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11558,7 +11595,7 @@
 		(dnp no)
 		(uuid "c7d9865c-491a-4eb1-a256-ef974881ad52")
 		(property "Reference" "C19"
-			(at 251.206 40.64 90)
+			(at 177.546 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11567,7 +11604,7 @@
 			)
 		)
 		(property "Value" "CAP_100n_6.3V_0603"
-			(at 229.87 49.53 0)
+			(at 156.21 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11576,7 +11613,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 233.68 38.1 0)
+			(at 160.02 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11585,7 +11622,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 238.76 50.8 0)
+			(at 165.1 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11594,7 +11631,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 6.3V X7R 0603"
-			(at 241.3 40.64 0)
+			(at 167.64 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11603,7 +11640,7 @@
 			)
 		)
 		(property "Display Value" "100n"
-			(at 251.206 43.18 90)
+			(at 177.546 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11612,7 +11649,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 229.87 29.21 0)
+			(at 156.21 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11621,7 +11658,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CC0603KRX7R5BB104"
-			(at 236.22 38.1 0)
+			(at 162.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11630,7 +11667,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 227.33 22.86 0)
+			(at 153.67 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11639,7 +11676,7 @@
 			)
 		)
 		(property "Supplier 1 Part Number" "13-CC0603KRX7R5BB104CT-ND"
-			(at 227.33 50.8 0)
+			(at 153.67 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11648,7 +11685,7 @@
 			)
 		)
 		(property "Supplier 2" "no_data"
-			(at 245.11 41.91 0)
+			(at 171.45 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11657,7 +11694,7 @@
 			)
 		)
 		(property "Supplier 2 Part Number" "no_data"
-			(at 243.84 41.91 0)
+			(at 170.18 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11748,7 +11785,7 @@
 	)
 	(symbol
 		(lib_id "tutorial_2_library:DNM_0603_cap")
-		(at 124.46 128.27 270)
+		(at 124.46 130.81 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11756,51 +11793,6 @@
 		(dnp yes)
 		(uuid "cfa41c5f-2195-421d-a8ad-8e1a197ff274")
 		(property "Reference" "C9"
-			(at 126.746 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DNM_CAP_0603"
-			(at 105.41 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 109.22 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf"
-			(at 114.3 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Non mounted 0603_1608 ceramic capacitor"
-			(at 116.84 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Display Value" "DNM"
 			(at 126.746 129.54 90)
 			(effects
 				(font
@@ -11809,8 +11801,53 @@
 				(justify left)
 			)
 		)
+		(property "Value" "DNM_CAP_0603"
+			(at 105.41 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 109.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf"
+			(at 114.3 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non mounted 0603_1608 ceramic capacitor"
+			(at 116.84 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display Value" "DNM"
+			(at 126.746 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Manufacturer" "KEMET"
-			(at 105.41 115.57 0)
+			(at 105.41 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11819,7 +11856,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "C0603C225K4PAC7867"
-			(at 111.76 124.46 0)
+			(at 111.76 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11828,7 +11865,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 102.87 109.22 0)
+			(at 102.87 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11837,7 +11874,7 @@
 			)
 		)
 		(property "Supplier 1 Part Number" "399-C0603C225K4PAC7867CT-ND"
-			(at 102.87 137.16 0)
+			(at 102.87 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11846,7 +11883,7 @@
 			)
 		)
 		(property "Supplier 2" ""
-			(at 124.46 128.27 0)
+			(at 124.46 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11855,7 +11892,7 @@
 			)
 		)
 		(property "Supplier 2 Part Number" ""
-			(at 124.46 128.27 0)
+			(at 124.46 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11880,7 +11917,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 243.84 54.61 0)
+		(at 170.18 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11889,7 +11926,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2d9e830-173e-4376-bf78-58ff11883b8d")
 		(property "Reference" "#PWR026"
-			(at 243.84 60.96 0)
+			(at 170.18 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11898,7 +11935,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 243.84 59.69 0)
+			(at 170.18 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11906,7 +11943,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 54.61 0)
+			(at 170.18 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11915,7 +11952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 54.61 0)
+			(at 170.18 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11924,7 +11961,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 243.84 54.61 0)
+			(at 170.18 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12570,7 +12607,7 @@
 	)
 	(symbol
 		(lib_id "tutorial_2_library:DNM_0603_cap")
-		(at 134.62 128.27 270)
+		(at 134.62 130.81 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12578,51 +12615,6 @@
 		(dnp yes)
 		(uuid "e84d6dea-b9b1-4a1b-a4b9-b5ce713d9f66")
 		(property "Reference" "C10"
-			(at 136.906 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DNM_CAP_0603"
-			(at 115.57 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 119.38 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf"
-			(at 124.46 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Non mounted 0603_1608 ceramic capacitor"
-			(at 127 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Display Value" "DNM"
 			(at 136.906 129.54 90)
 			(effects
 				(font
@@ -12631,8 +12623,53 @@
 				(justify left)
 			)
 		)
+		(property "Value" "DNM_CAP_0603"
+			(at 115.57 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 119.38 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf"
+			(at 124.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non mounted 0603_1608 ceramic capacitor"
+			(at 127 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display Value" "DNM"
+			(at 136.906 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Manufacturer" "KEMET"
-			(at 115.57 115.57 0)
+			(at 115.57 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12641,7 +12678,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "C0603C225K4PAC7867"
-			(at 121.92 124.46 0)
+			(at 121.92 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12650,7 +12687,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 113.03 109.22 0)
+			(at 113.03 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12659,7 +12696,7 @@
 			)
 		)
 		(property "Supplier 1 Part Number" "399-C0603C225K4PAC7867CT-ND"
-			(at 113.03 137.16 0)
+			(at 113.03 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12668,7 +12705,7 @@
 			)
 		)
 		(property "Supplier 2" ""
-			(at 134.62 128.27 0)
+			(at 134.62 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12677,7 +12714,7 @@
 			)
 		)
 		(property "Supplier 2 Part Number" ""
-			(at 134.62 128.27 0)
+			(at 134.62 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12702,7 +12739,7 @@
 	)
 	(symbol
 		(lib_id "nae_caps:CAP_2u2_6.3V_0603")
-		(at 200.66 128.27 270)
+		(at 200.66 130.81 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12710,51 +12747,6 @@
 		(dnp no)
 		(uuid "ea6aebc6-0cb6-4db0-928a-999e15bbb634")
 		(property "Reference" "C15"
-			(at 202.946 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CAP_2u2_6.3V_0603"
-			(at 181.61 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 185.42 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 190.5 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 2.2UF 6.3V X7R 0603"
-			(at 193.04 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Display Value" "2u2"
 			(at 202.946 129.54 90)
 			(effects
 				(font
@@ -12763,8 +12755,53 @@
 				(justify left)
 			)
 		)
+		(property "Value" "CAP_2u2_6.3V_0603"
+			(at 181.61 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 185.42 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+			(at 190.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 2.2UF 6.3V X7R 0603"
+			(at 193.04 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display Value" "2u2"
+			(at 202.946 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Manufacturer" "YAGEO"
-			(at 181.61 115.57 0)
+			(at 181.61 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12773,7 +12810,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CC0603KRX7R5BB225"
-			(at 187.96 124.46 0)
+			(at 187.96 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12782,7 +12819,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 179.07 109.22 0)
+			(at 179.07 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12791,7 +12828,7 @@
 			)
 		)
 		(property "Supplier 1 Part Number" "311-1795-1-ND"
-			(at 179.07 137.16 0)
+			(at 179.07 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12800,7 +12837,7 @@
 			)
 		)
 		(property "Supplier 2" "no_data"
-			(at 196.85 128.27 0)
+			(at 196.85 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12809,7 +12846,7 @@
 			)
 		)
 		(property "Supplier 2 Part Number" "no_data"
-			(at 195.58 128.27 0)
+			(at 195.58 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13030,7 +13067,7 @@
 	)
 	(symbol
 		(lib_id "nae_caps:CAP_100n_6.3V_0603")
-		(at 190.5 128.27 270)
+		(at 190.5 130.81 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13038,51 +13075,6 @@
 		(dnp no)
 		(uuid "f212fdc5-07cc-4df4-af13-b0cc7be6ff95")
 		(property "Reference" "C14"
-			(at 192.786 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CAP_100n_6.3V_0603"
-			(at 171.45 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 175.26 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 180.34 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 6.3V X7R 0603"
-			(at 182.88 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Display Value" "100n"
 			(at 192.786 129.54 90)
 			(effects
 				(font
@@ -13091,8 +13083,53 @@
 				(justify left)
 			)
 		)
+		(property "Value" "CAP_100n_6.3V_0603"
+			(at 171.45 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 175.26 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+			(at 180.34 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 6.3V X7R 0603"
+			(at 182.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display Value" "100n"
+			(at 192.786 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Manufacturer" "YAGEO"
-			(at 171.45 115.57 0)
+			(at 171.45 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13101,7 +13138,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CC0603KRX7R5BB104"
-			(at 177.8 124.46 0)
+			(at 177.8 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13110,7 +13147,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 168.91 109.22 0)
+			(at 168.91 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13119,7 +13156,7 @@
 			)
 		)
 		(property "Supplier 1 Part Number" "13-CC0603KRX7R5BB104CT-ND"
-			(at 168.91 137.16 0)
+			(at 168.91 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13128,7 +13165,7 @@
 			)
 		)
 		(property "Supplier 2" "no_data"
-			(at 186.69 128.27 0)
+			(at 186.69 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13137,7 +13174,7 @@
 			)
 		)
 		(property "Supplier 2 Part Number" "no_data"
-			(at 185.42 128.27 0)
+			(at 185.42 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13162,7 +13199,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 194.31 95.25 0)
+		(at 226.06 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13171,7 +13208,7 @@
 		(fields_autoplaced yes)
 		(uuid "f58f5e60-cb71-407c-8e9c-79f1730c812f")
 		(property "Reference" "#PWR023"
-			(at 194.31 101.6 0)
+			(at 226.06 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13180,7 +13217,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 100.33 0)
+			(at 226.06 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13188,7 +13225,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 95.25 0)
+			(at 226.06 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13197,7 +13234,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 95.25 0)
+			(at 226.06 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13206,7 +13243,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 95.25 0)
+			(at 226.06 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13228,7 +13265,7 @@
 	)
 	(symbol
 		(lib_id "nae_caps:CAP_100n_6.3V_0603")
-		(at 209.55 82.55 270)
+		(at 241.3 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13236,7 +13273,7 @@
 		(dnp no)
 		(uuid "f6c4095b-8912-4826-90ee-9b8dcd4c9a71")
 		(property "Reference" "C7"
-			(at 211.836 81.28 90)
+			(at 243.586 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13245,7 +13282,7 @@
 			)
 		)
 		(property "Value" "CAP_100n_6.3V_0603"
-			(at 190.5 90.17 0)
+			(at 222.25 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13254,7 +13291,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 194.31 78.74 0)
+			(at 226.06 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13263,7 +13300,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 199.39 91.44 0)
+			(at 231.14 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13272,7 +13309,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 6.3V X7R 0603"
-			(at 201.93 81.28 0)
+			(at 233.68 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13281,7 +13318,7 @@
 			)
 		)
 		(property "Display Value" "100n"
-			(at 211.836 83.82 90)
+			(at 243.586 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13290,7 +13327,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 190.5 69.85 0)
+			(at 222.25 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13299,7 +13336,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CC0603KRX7R5BB104"
-			(at 196.85 78.74 0)
+			(at 228.6 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13308,7 +13345,7 @@
 			)
 		)
 		(property "Supplier 1" "DigiKey"
-			(at 187.96 63.5 0)
+			(at 219.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13317,7 +13354,7 @@
 			)
 		)
 		(property "Supplier 1 Part Number" "13-CC0603KRX7R5BB104CT-ND"
-			(at 187.96 91.44 0)
+			(at 219.71 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13326,7 +13363,7 @@
 			)
 		)
 		(property "Supplier 2" "no_data"
-			(at 205.74 82.55 0)
+			(at 237.49 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13335,7 +13372,7 @@
 			)
 		)
 		(property "Supplier 2 Part Number" "no_data"
-			(at 204.47 82.55 0)
+			(at 236.22 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13360,7 +13397,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 134.62 0)
+		(at 190.5 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13369,7 +13406,7 @@
 		(fields_autoplaced yes)
 		(uuid "f885ab26-b51b-4c9c-b068-e27634c77734")
 		(property "Reference" "#PWR020"
-			(at 190.5 140.97 0)
+			(at 190.5 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13378,7 +13415,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 139.7 0)
+			(at 190.5 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13386,7 +13423,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 134.62 0)
+			(at 190.5 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13395,7 +13432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 134.62 0)
+			(at 190.5 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13404,7 +13441,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 134.62 0)
+			(at 190.5 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
