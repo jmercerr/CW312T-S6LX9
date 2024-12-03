@@ -5087,7 +5087,7 @@
 		)
 		(uuid "8569b81c-41dd-449f-b78a-ed4d8408e135")
 	)
-	(text "Confirm footprint/package for U2 -> matched up with the info found in data sheet but gerber of old pcb does not seem to match"
+	(text "Confirm footprint/package for U2 -> matched up with the info found in data sheet but gerber of old pcb does not seem to match\nAlso confirm if this is mounted or not. in the BOM in dropbox it doesnt state DNM but the BOM in the production folder does say DNM"
 		(exclude_from_sim no)
 		(at 174.244 215.392 0)
 		(effects
