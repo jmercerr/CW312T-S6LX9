@@ -3475,7 +3475,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C11"
-			(at -3 -0.021318 360)
+			(at -3 -0.021318 0)
 			(layer "F.SilkS")
 			(uuid "852ccd08-4f60-446e-85e2-f3e9100837a4")
 			(effects
@@ -3486,7 +3486,7 @@
 			)
 		)
 		(property "Value" "DNM_CAP_0603"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "e04a951d-3a81-406b-8b3f-9719a0ab3bf2")
 			(effects
@@ -3731,7 +3731,7 @@
 			(uuid "f4427f04-cd38-4258-bf4c-25df1a2e62aa")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "81ea8a49-b2cb-42ce-a8c9-d0e95cd59fb9")
 			(effects
@@ -11740,7 +11740,7 @@
 				)
 			)
 		)
-		(path "/d67991ef-1465-46d9-b7d2-47fb63c81bd9/7f48a002-c2a8-4bc1-932a-0f5d8750481a")
+		(path "/d67991ef-1465-46d9-b7d2-47fb63c81bd9/38eb6c75-9f83-4cb7-b405-b34744e008db")
 		(sheetname "XC6SLX9-3TQG144_2")
 		(sheetfile "XC6SLX9-3TQG144_2.kicad_sch")
 		(attr smd)
@@ -12500,7 +12500,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R7"
-			(at -3.098159 0.025 360)
+			(at -3.098159 0.025 0)
 			(layer "F.SilkS")
 			(uuid "5392bbec-9feb-4db1-8cc6-3e35c8acebe9")
 			(effects
@@ -12511,7 +12511,7 @@
 			)
 		)
 		(property "Value" "RES_1k_0603"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "92d112eb-320a-40b9-8f53-cb41d85e3ffb")
 			(effects
@@ -12756,7 +12756,7 @@
 			(uuid "63fcb0cb-0cc5-4d2c-b3bb-9369cef0fc49")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "ba269068-1ed4-4285-8e90-603f33fe4bf5")
 			(effects
